@@ -9,6 +9,14 @@
 Для чтения
 
     ruby read.rb
+    
+Параметры для чтения:
+
+    -h                           доступные параметры
+    --type POST_TYPE             какой тип постов показывать (по умолчанию любой)
+    --id POST_ID                 если задан id — показываем подробно  только этот пост
+    --limit NUMBER               сколько последних постов показать (по умолчанию все)
+
    
 - - - - - - - -
 
@@ -23,6 +31,13 @@ To write:
 To read.rb
 
     ruby read.rb
+    
+Available options to read:
+
+    -h                           available options
+    --type POST_TYPE             what type of posts to show (by default any)
+    --id POST_ID                 if id is specified - shows in detail only this post
+    --limit NUMBER               how many last posts to show (by default all)
    
     
 
